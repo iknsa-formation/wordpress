@@ -19,12 +19,12 @@ if ( have_posts() ) : while ( have_posts() ) : the_post();
                     <?php the_content('Lire la suite'); ?>
                 </p>
             </div>
-            <div class="comments">
+             <div class="comments">
                 <ul>
-                    <li><a href="#"><img src="images/views.png" title="view" /></a></li>
-                    <li><a href="#"><img src="images/likes.png" title="likes" /></a></li>
-                    <li><a href="#"><img src="images/link.png" title="link" /></a></li>
-                    <li><a class="readmore" href="singlepage.html">ReadMore</a></li>
+                    <li><a href="#"><img src="wp-content/themes/aston/images/views.png" title="view" /></a></li>
+                    <li><a href="#"><img src="wp-content/themes/aston/images/likes.png" title="likes" /></a></li>
+                    <li><a href="#"><img src="wp-content/themes/aston/images/link.png" title="link" /></a></li>
+                    <li><a class="readmore" href="<?php the_permalink() ?>">Lire la suite</a></li>
                 </ul>
             </div>
         </div>
