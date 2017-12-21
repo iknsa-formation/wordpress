@@ -1,9 +1,7 @@
 <div class="contact">
 		<div class="contact-form">
 			<h3>Contact-Form</h3>
-			
 		</div>
-
 		<div class="clear"> </div>
 	</div>
 <?php
@@ -61,7 +59,6 @@ function creationtheme_comment($comment, $args, $depth) {
         </div><?php 
  	endif;
 }
-	wp_list_comments('callback=creationtheme_comment');
-
-	comment_form();
+wp_list_comments('callback=creationtheme_comment');
+comment_form();
 ?>

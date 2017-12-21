@@ -1,5 +1,4 @@
-<?php 
-
+<?php
 get_header();
 if ( have_posts() ) : while ( have_posts() ) : the_post(); 
 ?>
@@ -7,12 +6,19 @@ if ( have_posts() ) : while ( have_posts() ) : the_post();
     <div class="grids">
         <div class="grid box">
             <div class="grid-header">
-                <h3>
-                <a href="<?php the_permalink() ?>"><?php the_title(); ?></a>
-                </h3>
+                <h3><?php the_title(); ?></h3>
                 <ul>
-                    <a href=""><?php comments_popup_link( '0', '1','% commentaires'); ?> </a>
+                    <li> <span>Article posté par <?php the_author(); ?></span>
+                    </li>
+                    <li>
+                        <a href=""><?php comments_popup_link( '0', '1 commentaires','% commentaires'); ?>
+                            <span>
+                                <?php echo the_time('j, F, Y g:i:s') ?>
+                            </span>
+                        </a>
+                    </li>
                 </ul>
+                
             </div>
             <div class="grid-img-content">
                 <div class="img">

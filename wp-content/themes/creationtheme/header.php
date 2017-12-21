@@ -9,7 +9,9 @@
 <div class="wrap">
     <div class="left-sidebar">
         <div class="logo">
-            <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
+            <span>
+            <a href="<?php bloginfo('url') ?>"><img src="http://localhost/formation-wordpress/wp-content/themes/creationtheme/images/grid-img.jpg"></a>
+            </span>
             <h1><?php bloginfo('name') ?></h1>
         </div>
         <div class="top-nav">

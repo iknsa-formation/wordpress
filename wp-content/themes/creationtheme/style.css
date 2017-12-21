@@ -38,7 +38,7 @@ img{max-width:100%;}
 /*end reset*/
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-image:#46463C url(wp-content/themes/aston/images/bg.png);
+    background-color: #C1BDBD;
     border-top: 7px outset #ea4c89;
 }
 .wrap{
@@ -94,10 +94,10 @@ body{
 }
 /*----content----*/
 .content{
-    background:#fff;
-    float:left;
-    margin: 0% 0% 0% 1.5%;
-    width: 61%;
+    background: #fff;
+    float: left;
+    margin: 0% 0% 0% 0.5%;
+    width: 70%;
     padding: 13px 22px 22px 22px;
     
 }
@@ -121,7 +121,7 @@ body{
 .grid p{
     float:right;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.8em;
+    font-size: 1.1em;
     color: rgb(155, 155, 155);
     line-height: 1.8em;
     width: 58.3%;
@@ -188,10 +188,12 @@ body{
 }
 .comments{
     margin: 10px 0px -2px 0px;
-    border-top: 1px ridge rgb(240, 240, 240);
+    /*border-top: 1px ridge rgb(240, 240, 240);*/
 }
 .grid.box {
-    border-bottom: 1px ridge rgb(240, 240, 240);
+    /*border-bottom: 1px ridge rgb(240, 240, 240);*/
+    height: 150px;
+    margin-bottom: 25%;
 }
 .grid-header {
     margin-top: 18px;
@@ -200,7 +202,7 @@ body{
 .content-pagenation{
     float:left;
     margin-top: 26px;
-    background-image: url(wp-content/themes/aston/images/content-border-bottom.png) bottom;
+    background-image: url(wp-content/themes/creationtheme/images/content-border-bottom.png) bottom;
 }
 .content-pagenation ul li{
     list-style:none;
@@ -252,12 +254,12 @@ body{
     border:none;
 }
 .search-bar input[type="submit"]{
-    background-image: url(wp-content/themes/aston/images/search.png);
+    background-image: url(wp-content/themes/creationtheme/images/search.png);
     height: 37px;
     width: 42px;
 }
 .search-bar input[type="submit"]:hover{
-    background-image: url(wp-content/themes/aston/images/search1.png);
+    background-image: url(wp-content/themes/creationtheme/images/search1.png);
     cursor:pointer;
 }
 .search-bar input[type="text"]{
@@ -356,7 +358,7 @@ body{
     border-bottom: 5px solid #ea4c89;
 }
 .singlepage1 h3:before{
-    content-image: url(wp-content/themes/aston/images/r-blog.png);
+    content-image: url(wp-content/themes/creationtheme/images/r-blog.png);
     vertical-align: middle;
     margin-right: 3px;
 }
