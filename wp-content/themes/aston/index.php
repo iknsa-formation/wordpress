@@ -18,7 +18,9 @@ if ( have_posts() ) : while ( have_posts() ) : the_post();
             </div>
             <div class="grid-img-content">
                 <div class="img">
-                    <?php the_post_thumbnail(); ?>
+                    <?php the_post_thumbnail(); 
+                    echo get_template_directory_uri();
+                    ?>
                 </div>
                 <p>
                     <?php the_content('Lire la suite'); ?>

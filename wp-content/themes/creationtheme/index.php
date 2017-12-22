@@ -24,6 +24,7 @@ if ( have_posts() ) : while ( have_posts() ) : the_post();
                 </ul>
                 
             </div>
+            
             <div class="grid-img-content">
                 <div class="img">
                     <!-- Afficher l'image à la une -->

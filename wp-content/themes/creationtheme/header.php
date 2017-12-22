@@ -10,7 +10,9 @@
     <div class="left-sidebar">
         <div class="logo">
             <span>
-            <a href="<?php bloginfo('url') ?>"><img src="http://localhost/formation-wordpress/wp-content/themes/creationtheme/images/grid-img.jpg"></a>
+            <a href="<?php bloginfo('url') ?>">
+                <!--  uttilisation de get_template_directory_uri();-->
+                <img src="<?php echo get_template_directory_uri(); ?>/images/grid-img.jpg"></a>
             </span>
             <h1><?php bloginfo('name') ?></h1>
         </div>
